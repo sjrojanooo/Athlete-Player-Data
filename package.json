@@ -1,0 +1,32 @@
+{
+  "name": "athlete-player-data",
+  "version": "1.0.0",
+  "description": "Will be scraping athlete data - statistics, salaries, injuries, etc. Want to get accustomed to cheerio capabilities.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjrojanooo/Athlete-Player-Data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjrojanooo/Athlete-Player-Data/issues"
+  },
+  "homepage": "https://github.com/sjrojanooo/Athlete-Player-Data#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
